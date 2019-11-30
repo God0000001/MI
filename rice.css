@@ -1,0 +1,348 @@
+/*清除全部样式*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/*清除全部样式结束*/
+/*头部开始*/
+.bad{
+    background: #333;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    color: #b0b0b0;
+    text-align: center;
+}
+.bed{
+    width: 1226px;
+    height: 40px;
+    background: #333;
+    color: #b0b0b0;
+    margin: 0 auto;
+}
+.bed1{
+    float: left;
+}
+.bed1 a{
+    font-size: 12px;
+    line-height: 40px;
+    color: #b0b0b0;
+}
+.bed1 a:hover{
+    color: white;
+}
+.bed2{
+    float: right;
+    height: 40px;
+    /*width: auto;*/
+    color: #b0b0b0;
+}
+.bed2 .bianse:hover{
+    color: white;
+}
+.bed2 .bianse{
+    font-size: 12px;
+    color: #b0b0b0;
+    line-height: 40px;
+}
+.shop{
+    width: 120px;
+    height: 40px;
+    color: #b0b0b0;
+    font-size: 12px;
+    /*display:inline-block;*/
+    float: right;
+    margin-left: 10px;
+    line-height: 40px;
+}
+.shop i{
+    font-size: 16px;
+}
+.shop:hover{
+    background: white;
+    color: orange;
+}
+.shop{
+
+}
+/*!*头部结束*!*/
+
+/*!*导航栏开始*!*/
+.bus{
+    height: 88px;
+    width: 1226px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.bar{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    float:left;
+    background-color: orange;
+}
+.bus1{
+    width: auto;
+    height: 88px;
+    float: left;
+    line-height: 88px;
+    margin-left: 150px;
+}
+.bus1 a{
+    color: gray;
+    margin: 0 auto;
+    margin-right: 25px;
+}
+.bus1 a:hover{
+    color: red;
+    margin-top: 60px;
+}
+
+
+.cut1{
+    height: 50px;
+    width: 297px;
+    /*background: blue;*/
+    /*border: 1px solid black;*/
+    position: absolute;
+    float: right;
+}
+.cut1 .cut2{
+    width: 243px;
+    height: 48px;
+    /*background: red;*/
+    float: left;
+    border: 1px solid black;
+    position: relative;
+}
+.cut1 .cut3{
+    width: 51px;
+    height: 48px;
+    float: left;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+    text-align: center;
+    line-height: 48px;
+}
+.cut1 .cut2 input{
+    width: 236px;
+    height: 44px;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-left: 0;
+}
+/*导航栏结束*/
+/*轮播图开始*/
+.big img{
+    height: 460px;
+    width: 1226px;
+}
+div.big{
+    position: relative;
+}
+.box{
+    height: 460px;
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+    background: darkgray;
+}
+.box div{
+    position: absolute;
+}
+
+.boy{
+    width: 234px;
+    height: 460px;
+    background: #0007;
+    display: block;
+}
+.boy a{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    display: block;
+    /*padding-left: 80px;*/
+    margin-top: 20px;
+}
+.boy .icon-dayuhao{
+    margin-left: 10px;
+    text-align: left;
+    /*display: block;*/
+    line-height: 20px;
+}
+/*轮播图结束*/
+/*轮播图下开始*/
+.boo{
+    /*margin-top: 30px;*/
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+}
+.bottom{
+    width: 234px;
+    height: 170px;
+    background: gray;
+    /*display: block;*/
+    margin-left: 3px;
+    margin-top: 20px;
+}
+.bottom i{
+    display: block;
+    float: left;
+    margin-top: 30px;
+    color: white;
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*padding-left: 10px;*/
+    text-align: center;
+}
+.bottom a{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+.big1{
+    float: left;
+}
+.big2{
+    float: left;
+}
+.big3{
+     float: left;
+ }
+.big4{
+    float: left;
+}
+.big5{
+    float: left;
+}
+.big6{
+    float: left;
+}
+/*.big9{*/
+/*    margin-top: -170px;*/
+/*    float: right;*/
+/*}*/
+.boo .big6 img{
+    height:170px;
+    width: 316px;
+    /*position: relative; */
+    margin-left: 240px;
+    margin-top: -170px;
+}
+.boo .big7 img{
+    height:170px;
+    width: 316px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: -180px;
+}
+.boo .big8 img{
+    height:170px;
+    width: 316px;
+    position: relative;
+    margin-left: 900px;
+    margin-top: -190px;
+}
+/*轮播图下结束*/
+/*小米闪购开始*/
+.shop{
+    /*background: orange;*/
+    float: left;
+    margin-top: 220px;
+}
+.shop a{
+    color: black;
+    font-size: 20px;
+}
+.shop1{
+    float:right;
+    margin-top: 240px;
+    margin-right: 20px;
+}
+/*小米闪购结束*/
+/*小米闪购下开始*/
+.xiaomi9pro img{
+    margin-top: 30px;
+}
+/*小米闪购下结束*/
+
+/*手机开始*/
+.phone{
+    margin-top: 20px;
+}
+.phone a{
+    color: darkgray;
+    font-size: 20px;
+}
+.phone1{
+    margin-top: -20px;
+    float: right;
+}
+.phone1 a{
+    color: darkgray;
+}
+/*手机结束*/
+/*手机下图开始*/
+
+
+/*手机下图结束*/
+
+/*小米电视特惠开始*/
+.ds img{
+    margin-top: 20px;
+}
+/*小米电视特惠结束*/
+
+/*家电开始*/
+.jd a{
+    color: darkgray;
+    font-size: 30px;
+}
+.jd2 a{
+    color: darkgray;
+    font-size: 15px;
+    /*float: right;*/
+    margin-top: -30px;
+}
+.jd2 a{
+    float: right;
+    margin-right: 50px;
+    margin-top: -10px;
+}
+/*家电结束*/
+
+
+/*家电下开始*/
+
+/*家电下结束*/
+
+/*米家智能锁开始*/
+.suo img{
+    margin-top: 20px;
+}
+/*米家智能锁结束*/
+
+/*智能开始*/
+.cap a{
+    color: black;
+    font-size: 20px;
+}
+.cap1 a{
+    color: black;
+    font-size: 15px;
+}
+/*智能结束*/
+
+/*智能下图开始*/
+/*智能下图结束*/
+
